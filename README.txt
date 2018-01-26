@@ -11,4 +11,6 @@ Blackjack Instruction.txt -> game instructions
 about.txt -> this file
 make sure all of them are in the same directory (default dir: C:\\Python26\\)
 
+for more game instructions view the "Blackjack_Instructions.txt" file
+
 *Note: the program uses ttk for the scrollbars and the scores table. You must install ttk before running the program.
