@@ -1,0 +1,20 @@
+Instructions
+
+Welcome to Python BlackJack!
+
+Objective: Get 21 points or reach a higher score than the competitor, without exceeding 21.
+
+The Game: 
+In the beginning of the game each player is dealt 2 cards. Face cards (kings, queens, and jacks) are counted as ten points. A player and the computer can count an ace as 1 point or 11 points (the score bellow will automatically count the ace card as best for you).  All other cards are counted as the numeric value shown on the card. After receiving the first two cards, the player has the option of getting a "hit", meaning taking an additional card, or the option of "pass", meaning the player does not want an additional card.
+In a given round, the player or the dealer wins by having a score of 21 or by having the higher score that is less than 21. Scoring higher than 21 (called "busting" or "going bust") results in a loss. A player may win by having any final score equal to or less than 21 if the dealer busts. 
+The dealer must hit until the cards total 16 points. Both the dealer and player can "hit" or "pass" according to their cards and their strategy. If the player chooses to "pass", then the computer can "hit" as many times as he wants. Each round is displayed on the left hand side of the screen.
+A round starts with the words: "-----START GAME-----", and ends with the words: "-----DETERMINE WINNER-----". You have an option to view your previous games with the scrollbar provided.
+The round ends after both players (the player and the computer) choose to "pass" or if one of the players bursts. A "Blackjack" (the sum is 21) can be achieved in a few forms. A Tie is also a possible outcome of the game.
+
+More info:
+You can see how many games you won against the computer down in the right hand corner under the label 'Balance'. The 'player_score' and 'computer_score' will show you the sum of the current cards in your hand and the computer's hand for your convenience.
+On the right hand side of the screen you will see two things:
+1) A name entry for entering your name (if you wish to save your progress you must press save at the end of the game).
+2) A score table with the scores of the player who's name is entered above. You can load your scores by going to: File>Load. Please note: if the name hadn't been entered before the program won't allow you to display the score table.
+For more options and information go to Help>about...
+Enjoy!!!
